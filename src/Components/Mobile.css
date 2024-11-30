@@ -1,0 +1,80 @@
+
+
+#graprow{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+  
+}
+
+#col1{
+    border-right: 1px solid white;
+    height: 400px;
+    padding-right: 30px;
+}
+
+#col2{
+    padding-left: 50px;
+}
+
+
+#graprow {
+  margin-top: 20px;
+}
+
+#col1, #col2 {
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* ****************************************** */
+.step-box {
+  /* background-color: #f8f9fa; */
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.step-box h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+h2{
+  font-size: 30px;
+  margin-top: 100px;
+}
+.step-box p {
+  font-size: 1rem;
+  color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .step-box {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .step-box h3 {
+    font-size: 1.4rem;
+  }
+  .step-box p {
+    font-size: 0.9rem;
+  }
+}
+
