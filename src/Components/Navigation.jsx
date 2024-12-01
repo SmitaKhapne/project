@@ -28,9 +28,9 @@ const App = () => {
         {/* Navbar */}
         <Navbar className="navbar bg-dark border-bottom border-body" bg="primary" data-bs-theme="dark" id="navbar">
           <Container>
-            <Navbar.Brand href="#home">Skillhub</Navbar.Brand>
+            <Navbar.Brand href="#">Skillhub</Navbar.Brand>
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#">Home</Nav.Link>
               <Nav.Link href="#sign-in">Sign-In</Nav.Link>
             </Nav>
           </Container>

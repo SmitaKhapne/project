@@ -2,7 +2,8 @@
   position: relative;
 }
 .banner-card img {
-  width: 101%;
+  width: 100% !important;
+ 
   height: 90vh;
 }
 
@@ -24,32 +25,39 @@
 
 #graprow {
   margin-top: 30px;
-  text-align: left;
+  text-align: justify;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 #col1 {
   border-right: 1px solid white;
   height: 100px;
-  padding-right: 30px;
+  border-radius: 0 !important;
+  
+ 
+  
 }
 
 #col2 {
-  padding-left: 50px;
+  
+  
 }
 
-#graprow {
-  margin-top: 20px;
-}
+
 
 #col1,
 #col2 {
-  padding: 20px;
-  border-radius: 8px;
+  padding:9rem !important;
+  padding-top: 3rem !important;
+  
+  text-align: left;
   margin-bottom: 20px;
 }
 
 h3 {
   margin-bottom: 15px;
+  font-weight: bolder;
 }
 
 p {
@@ -100,11 +108,20 @@ h2 {
   #graprow {
     margin-top: 30px;
     text-align: left;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding:0 !important;
+    border: none !important;
   }
-  #col1, #cl2{
-    margin-left: 0;
-    border-right: none;
+  #col1 {
+    border-right: none !important;
+    height: 100px;
+    
   }
+  #col1, #col2{
+    padding: 0 !important;
+    margin-left: 1rem !important;
+    
+  }
+
 }

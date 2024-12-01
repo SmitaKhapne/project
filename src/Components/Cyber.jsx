@@ -55,11 +55,7 @@ const Graphics = () => {
                          to safeguard digital assets from various forms of cyberattacks, including hacking, phishing, 
                          ransomware, data breaches, and other malicious activities.
                         </p>
-                        <p>
-                        With the increasing reliance on digital technologies, cybersecurity has become a vital component for individuals, 
-                        businesses, and governments to protect themselves against a wide array of cyberattacks. Effective cybersecurity reduces
-                         the risk of financial loss,reputational damage, data breaches, and regulatory penalties.
-                        </p>
+                        
                     </div>
                     <div className="col-12 col-md-6" id="col2">
                     <h3>Hire a Cyber Security</h3>
@@ -85,10 +81,7 @@ const Graphics = () => {
             Cybersecurity encompasses a range of practices, technologies, and processes designed to safeguard digital assets from various forms of cyberattacks, including hacking, phishing, 
             ransomware, data breaches, and other malicious activities.
           </p>
-          <p>
-            With the increasing reliance on digital technologies, cybersecurity has become a vital component for individuals, businesses, and governments to protect themselves against a wide array of cyberattacks. 
-            Effective cybersecurity reduces the risk of financial loss, reputational damage, data breaches, and regulatory penalties.
-          </p>
+          
         </Col>
 
         {/* Column 2 */}
